@@ -1,27 +1,31 @@
-# Basic-Sales-Summary-Using-Pure-Python-and-Pandas
+# Basic Sales Summary Using Pure Python and Pandas (No SQL)
 
-# Basic Sales Summary Using Pure Python and Pandas (No SQL or Database)
+## About This Project
 
-## Overview
-This project demonstrates how to generate a basic sales summary using only Python, Pandas, and Matplotlib, without relying on SQL or a database. It uses a small in-memory dataset representing product sales and performs data analysis and visualization.
+I built this small project to explore how we can analyze simple sales data using just Python — no SQL, no database, just code. The idea was to simulate a real-world scenario with basic data (products, quantities, prices) and show how easy it is to summarize and visualize it with Pandas and Matplotlib.
+
+If you're new to data analysis or just want to practice working with in-memory data, this is a great starting point.
+
+## What You'll Learn
+
+- How to work with Python dictionaries and convert them into a DataFrame
+- How to calculate revenue from quantity and price
+- How to group and summarize data using `groupby()`
+- How to create a basic bar chart with Matplotlib
 
 ## Tools Used
-- Python  
-- Pandas – for data manipulation and aggregation  
-- Matplotlib – for visualizing revenue by product  
 
-## Project Structure
-- `sales_summary.py` – Main script that:
-  - Creates sample sales data in memory
-  - Calculates total quantity sold and total revenue per product
-  - Displays the results in the console
-  - Generates and saves a bar chart of revenue by product
+- Python
+- Pandas
+- Matplotlib
 
-- `sales_chart_no_sql.png` – Output image file showing the revenue by product (saved automatically when you run the script)
+No SQL. No external files. Just code.
 
-## How to Run
+## What's Inside
 
-1. Make sure you have Python installed.
-2. Install dependencies (if not already installed):
-   ```bash
-   pip install pandas matplotlib
+- `sales_summary.py`: The main script where everything happens. It:
+  - Creates a mock sales dataset
+  - Calculates total quantity and revenue per product
+  - Prints a clean summary table
+  - Plots a simple
+
